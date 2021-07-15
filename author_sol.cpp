@@ -16,7 +16,7 @@ int main() {
 		} else {
 			// otherwise, compute the difference of 'a' and 'b' (since this will be their GCD)
 			long long g = abs(a - b);
-			// then to find the minimum number of steps neededto make 'a' and 'b' divisible by 'g' is
+			// then to find the minimum number of steps needed to make 'a' and 'b' divisible by 'g' is
 			// to compare the minimum value between the remainder of 'a' and 'g' (the number that
 			// is needed to be added to 'a' to make it a multiple of 'g') or the subtracting 'g'
 			// by the value that is needed to be added to 'a' to make it a multiple of 'g' (since
